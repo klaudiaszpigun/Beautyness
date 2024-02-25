@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --BROWN: #cda274;
+  --BLACK: #292f36;
+  --WHITE: #f4f0ec;
+}
+body {
+  margin-left: 359px;
+  margin-right: 359px;
+  font-family: "DM Serif Display", serif;
+  font-weight: 500;
+}
+.link {
+  text-decoration: none;
+}
