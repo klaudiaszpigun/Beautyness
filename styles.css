@@ -25,12 +25,9 @@ body {
   font-style: normal;
   list-style: none;
 }
-.header {
-  margin-bottom: 50px;
-}
 .top-line {
   display: flex;
-  height: 50px;
+  height: 80px;
   align-items: center;
   justify-content: space-between;
 }
@@ -52,4 +49,7 @@ body {
 }
 .navigation-list-item {
   margin-right: 25px;
+}
+.navigation-list-item:last-child {
+  margin-right: 0;
 }
