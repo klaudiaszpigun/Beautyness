@@ -27,7 +27,7 @@ body {
 }
 .top-line {
   display: flex;
-  height: 80px;
+  height: 60px;
   align-items: center;
   justify-content: space-between;
 }
@@ -37,14 +37,14 @@ body {
 .interno {
   font-family: "DM Serif Display", sans-serif;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 1.25;
   color: var(--BLACK);
 }
 .navigation-link {
   font-family: "Jost", sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 1.25;
 }
 .navigation-list-item {
@@ -52,4 +52,44 @@ body {
 }
 .navigation-list-item:last-child {
   margin-right: 0;
+}
+.search-svg {
+  cursor: pointer;
+}
+
+.first-section {
+  background-image: url("./images/Photo.jpg");
+  background-position: center;
+  border-radius: 0 0 0 291px;
+  height: 740px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.first-section-heading {
+  font-family: "DM Serif Display", sans-serif;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 1.25;
+  color: var(--BLACK);
+  width: 567px;
+}
+.first-section-paragraph {
+  width: 553px;
+}
+.first-section-button {
+  border-radius: 18px;
+  padding: 26px 48px;
+  width: 219px;
+  height: 75px;
+  box-shadow: 0 10px 20px 0 rgba(192, 192, 192, 0.35);
+  background-color: var(--BLACK);
+  border: none;
+  cursor: pointer;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  background-color: #4d5053;
 }
